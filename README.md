@@ -3,48 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Перейти в Телеграмм</title>
+    <title>Loves - Ответы ОГЭ</title>
     <style>
         body {
+            font-family: Arial, sans-serif;
+            background-color: #0078d7;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f3f4f6;
         }
         .container {
+            background-color: white;
+            border-radius: 15px;
+            padding: 20px;
             text-align: center;
-            background-color: #ffffff;
-            padding: 20px 30px;
-            border-radius: 10px;
+            width: 300px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-        h1 {
-            font-size: 24px;
-            color: #333333;
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
         }
-        a {
-            display: inline-block;
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .year {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .button {
+            background-color: #0078d7;
+            color: white;
             padding: 10px 20px;
-            margin-top: 20px;
-            color: #ffffff;
-            background-color: #0088cc;
             text-decoration: none;
             border-radius: 5px;
             font-weight: bold;
+            display: inline-block;
         }
-        a:hover {
-            background-color: #0077b6;
+        .button:hover {
+            background-color: #005fa3;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Перейти в наш Telegram канал</h1>
-        <p>Нажмите на кнопку ниже, чтобы перейти в канал:</p>
-        <a href="https://t.me/otveti_loves" target="_blank">Перейти в Telegram</a>
+        <img src="loves_avatar.jpg" alt="Loves Avatar" class="avatar">
+        <div class="title">Loves</div>
+        <div class="year">Ответы ОГЭ 2025</div>
+        <a href="https://t.me/otveti_loves" class="button">Открыть в Telegram</a>
     </div>
 </body>
-</html># otveti_loves.com
+</html>
