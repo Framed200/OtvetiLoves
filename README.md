@@ -7,6 +7,9 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #0078d7;
+            background-image: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.3), transparent),
+                              radial-gradient(circle at 30% 30%, rgba(255, 192, 203, 0.2), transparent),
+                              radial-gradient(circle at 70% 70%, rgba(255, 105, 180, 0.2), transparent);
             display: flex;
             justify-content: center;
             align-items: center;
