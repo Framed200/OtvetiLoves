@@ -75,16 +75,18 @@
             margin-bottom: 20px;
         }
         .button {
-            background-color: #0078d7;
+            background: linear-gradient(90deg, #ff4081, #ff8e53);
             color: white;
             padding: 10px 20px;
             text-decoration: none;
             border-radius: 5px;
             font-weight: bold;
             display: inline-block;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
         }
         .button:hover {
-            background-color: #005fa3;
+            box-shadow: 0 0 10px rgba(255, 64, 129, 0.6), 0 0 20px rgba(255, 142, 83, 0.6);
+            transform: scale(1.05);
         }
     </style>
 </head>
