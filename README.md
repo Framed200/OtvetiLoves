@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +6,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #0078d7;
+            background-color: #ff80ab;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -33,6 +32,14 @@
             font-weight: bold;
             color: #333;
             margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+        }
+        .heart {
+            color: #ff4081;
+            font-size: 24px;
         }
         .year {
             font-size: 18px;
@@ -56,7 +63,7 @@
 <body>
     <div class="container">
         <img src="loves_avatar.jpg" alt="Loves Avatar" class="avatar">
-        <div class="title">Loves</div>
+        <div class="title">Loves <span class="heart">❤</span></div>
         <div class="year">Ответы ОГЭ 2025</div>
         <a href="https://t.me/otveti_loves" class="button">Открыть в Telegram</a>
     </div>
