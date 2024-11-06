@@ -16,6 +16,9 @@
             height: 100vh;
             margin: 0;
         }
+        .hidden-link {
+            display: none;
+        }
         .container {
             background-color: white;
             border-radius: 15px;
@@ -94,6 +97,7 @@
     </style>
 </head>
 <body>
+    <div class="hidden-link">otvetiloves.com</div>
     <div class="container">
         <div class="avatar-container">
             <img src="loves_avatar.jpg" alt="Loves Avatar" class="avatar">
