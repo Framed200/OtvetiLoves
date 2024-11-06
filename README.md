@@ -18,7 +18,7 @@
             overflow: hidden;
         }
         .container {
-            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+            background: #ffffff;
             border-radius: 20px;
             padding: 25px;
             text-align: center;
@@ -41,33 +41,17 @@
             border-radius: 50%;
             border: 3px solid #fff;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-            z-index: 1;
-        }
-        .glow-ring {
-            position: absolute;
-            top: -12px;
-            left: -12px;
-            width: 124px;
-            height: 124px;
-            border-radius: 50%;
-            background: radial-gradient(circle, rgba(255, 255, 255, 0.5), rgba(0, 120, 215, 0));
-            animation: pulse 2s infinite alternate;
-            z-index: 0;
-        }
-        @keyframes pulse {
-            from { transform: scale(1); opacity: 0.7; }
-            to { transform: scale(1.1); opacity: 1; }
         }
         .title {
             font-size: 28px;
             font-weight: bold;
-            color: #fff;
+            color: #333;
             margin: 15px 0;
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 8px;
-            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
         .heart {
             color: #ff4081;
@@ -75,9 +59,9 @@
         }
         .year {
             font-size: 20px;
-            color: #fff;
+            color: #666;
             margin-bottom: 20px;
-            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
         }
         .button {
             background: linear-gradient(90deg, #ff4081, #ff8e53);
@@ -100,7 +84,6 @@
     <div class="container">
         <div class="avatar-container">
             <img src="loves_avatar.jpg" alt="Loves Avatar" class="avatar">
-            <div class="glow-ring"></div>
         </div>
         <div class="title">Loves <span class="heart">❤</span></div>
         <div class="year">Ответы ОГЭ 2025</div>
